@@ -1,229 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/h1.css" />
-    <title>My Website</title>
-  </head>
 
-  <body>
-    <!-- Header -->
-    <section id="header">
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
-            <a href="#hero">
-              <h1><span>H</span>erry <span>R</span>ojivadiya</h1>
-            </a>
-          </div>
-          <div class="nav-list">
-            <div class="hamburger">
-              <div class="bar"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="IMAGES/profile.jpg" type="image/x-icon">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>John Roe</title>
+</head>
+
+<body>
+    <!-- Website Layout -->
+    <ul class="website_container">
+
+        <!-- Global Menu -->
+        <div id="global_menu_button_container">
+            <p class="site_title">John Roe</p>
+            <i class="fa fa-bars" id="global_menu_button"></i>
+        </div>
+
+        <ul id="global_menu_items">
+            <div>
+                <i class="fa fa-close" id="global_menu_close_button"></i>
+                <li><a href="/"><i class="fa fa-home"></i> About</a></li>
+                <li><a href="contact.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="skill.html"><i class="fas fa-pen-nib"></i> Blogs</a></li>
+                <li><a href="MyProject.html"><i class="fas fa-cog"></i> Services</a></li>
+                <li><a href="About.html"><i class="fas fa-phone-square"></i> Contact</a></li>
             </div>
-            <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <li><a href="#services" data-after="Service">Services</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#about" data-after="About">About</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
+        </ul>
+
+        <!--x Global Menu x-->
+
+
+
+        <!-- sidebar -->
+        <div class="sidebar_container">
+            <!-- Sidebar Image -->
+            <div class="image">
+                <img src="IMAGES/profile.jpg" alt="John Roe">
+                <div class="right_image_box"></div>
+                <div class="left_image_box"></div>
+            </div>
+
+            <!-- sidebar Content -->
+            <div class="sidebar_content">
+                <!-- Long name can be applied so easily -->
+                <h1>John Roe</h1>
+                <p>Website Designer</p>
+                <!-- Social Medias -->
+                <div class="social_media">
+                    <a href="https://www.linkedin.com/in/ishita-patoliya-480a75257/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ISHITA-PATOLIYA792"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/ishittaa_p"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Sidebar Buttom Menu -->
+            <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
+                <i class="fa fa-bars" id="sidebar_menu_icon"></i>
+            </div>
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar_navigation" id="sidebar_navigation">
+                <li><a href="/" class="active">About</a></li>
+                <li><a href="About.html">Resume</a></li>
+                <li><a href="skill.html">Blogs</a></li>
+                <li><a href="MyProject.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
             </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Header -->
 
-    <!-- Hero Section  -->
-    <section id="hero">
-      <div class="hero container">
-        <div>
-          <h1>Hello, <span></span></h1>
-          <h1>My Name is <span></span></h1>
-          <h1>Herry Rojivadiya <span></span></h1>
-          <a href="#projects" type="button" class="cta">Portfolio</a>
         </div>
-      </div>
-    </section>
-    <!-- End Hero Section  -->
+        <!-- content -->
+        <div class="content_container">
+            <!-- About Page -->
+            <div class="about_page">
+                <h2 class="title">About <span>Me</span></h2>
+                <hr class="line">
+                <div class="about_content">
+                    <p class="about_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam,
+                        porro dolore aut, explicabo eius voluptates vitae fuga, minus quaerat dolor. Autem id iure at
+                        illum in cumque, quasi esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In
+                        quaerat error tempora incidunt rem voluptas accusamus perspiciatis itaque exercitationem
+                        voluptatem?</p>
+                </div>
+                <div class="about_profile">
+                    <ul class="left_profile">
+                        <li><span class="profile_title">Date of Birth</span><span>July 29, 2005</span></li>
+                        <li><span class="profile_title">Gender</span><span>Female</span></li>
+                        <li><span class="profile_title">Age</span><span>20 Years Old</span></li>
+                        <li><span class="profile_title">Maritial Status</span><span>Unmarried</span></li>
+                        <li><span class="profile_title">Nationality</span><span>Nepali</span></li>
+                        <li><span class="profile_title">Religion</span><span>Hindu</span></li>
+                    </ul>
 
-    <!-- Service Section -->
-    <section id="services">
-      <div class="services container">
-        <div class="service-top">
-          <h1 class="section-title">Edu<span>c</span>ation</h1>
-    
-        </div>
-        <div class="service-bottom">
-          <div class="service-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/services.png"
-              />
-            </div>
-          
-            <h2>School</h2>
-            <p>
-            Smt. R. S. Kalariya Primary School
-            <br>
-            </p>
-          </div>
-          <div class="service-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/services.png"
-              />
-            </div>
-            <h2>High School</h2>
-            <p>
-              N. P. Bhlodiya High School
-              <br>
-            </p>
-          </div>
-          <div class="service-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/services.png"
-              />
-            </div>
-            <h2>College</h2>
-            <p>
-              Charotar University Of Science and Technology
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Service Section -->
+                    <ul class="right_profile">
+                        <li><span class="profile_title">Profession</span><span>Web Designer</span></li>
+                        <li><span class="profile_title">Address</span><span>Jhapa, Nepal</span></li>
+                        <li><span class="profile_title">Contact</span><span>+977 9800000000</span></li>
+                        <li><span class="profile_title">Email</span><span>email@gmail.com</span></li>
+                        <li><span class="profile_title">Website</span><span>mywebsite.com</span></li>
+                        <li><span class="profile_title">Freelance</span><span>Available</span></li>
+                    </ul>
+                </div>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="projects container">
-        <div class="projects-header">
-          <h1 class="section-title">Skills</h1>
+            </div>
         </div>
-        <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Languages</h1>
-              <h2>C</h2>
-              <h2>C++</h2>
-              <h2>JAVA</h2>
-              <h2>Java Script</h2>
-            </div>
-            <div class="project-img">
-              <img src="IMAGES/L.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Front-End</h1>
-              <h2>HTML</h2>
-              <h2>CSS</h2>
-              <h2>BOOTSTRAP</h2>
-            </div>
-            <div class="project-img">
-              <img src="IMAGES/F.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Tools</h1>
-              <h2>Git</h2>
-              <h2>GitHub</h2>
-              <h2>VS Code</h2>
-            </div>
-            <div class="project-img">
-              <img src="IMAGES/t.png" alt="img" />
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
-            <img src="IMAGES/herry.jpg" alt="img" />
-          </div>
-        </div>
-        <div class="col-right">
-          <h1 class="section-title">About <span>me</span></h1>
-          
-          <h2><b>HERRY ROJIVADIYA</b></h2>
-          <h2>I LOVE exploring new things!!!</h2>
-          <p>
-             I'm a second Year Information Technology Student at CSPIT,Anand.
-          </p>
-          <a href="#" class="cta">Download Resume</a>
-        </div>
-      </div>
-    </section>
-    <!-- End About Section -->
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="contact container">
-        <div>
-          <h1 class="section-title">Contact <span>info</span></h1>
-        </div>
-        <div class="contact-items">
-          <div class="contact-item">
-            <div class="icon">
-              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
-            </div>
-            <div class="contact-info">
-              <h1>Phone</h1>
-              <h2>+91 98765 45627</h2>
-              <h2>+1 234 123 1234</h2>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
-              />
-            </div>
-            <div class="contact-info">
-              <h1>Email</h1>
-              <h2>herry21@gmail.com</h2>
-              <!-- <h2>abcd@gmail.com</h2> -->
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <img
-                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
-              />
-            </div>
-            <div class="contact-info">
-              <h1>Address</h1>
-              <h2>Junagadh , Gujarat</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Contact Section -->
+        <script src="JS/script.js"></script>
+</body>
 
-    <!-- Footer -->
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h1><span>H</span>erry <span>R</span>ojavadiya</h1>
-        </div>
-      
-       
-
-          
-        <p>Copyright © 2023 Herry Rojivadiya. All rights reserved</p>
-      </div>
-    </section>
-    <!-- End Footer -->
-    <script src="JS/h2.js"></script>
-  </body>
 </html>
